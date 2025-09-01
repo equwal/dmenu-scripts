@@ -16,5 +16,6 @@ with that.
 - `dbrowsel`: select a browser for the link in the clipboard to open
 - `dmenu_run/dsudo`: run programs, maybe from a keybind set with xbindkeys or a wm
 - `dshow`:  run a command and show output without having to open a terminal
+- `dsysact`: reboot/shutdown/etc.
 - `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
 - `y-or-n`: ask if yes or no
