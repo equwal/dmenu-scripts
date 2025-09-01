@@ -10,3 +10,6 @@
 [submodule "dpatchmail"]
 	path = dpatchmail
 	url = git@github.com:equwal/dpatchmail
+[submodule "sbm"]
+	path = sbm
+	url = git@github.com:equwal/sbm
