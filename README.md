@@ -11,6 +11,7 @@ with that.
 - `dmenu_run/dsudo`: run programs, maybe from a keybind set with xbindkeys or a wm
 - `dmenupass`: ask for the sudo password as SUDO_ASKPASS
 - `dmount/dunmount`: mount/unmound drives
+- `dopenrc-runlevel`: choose openrc runlevels for various advanced tasks like networking
 - `dshow`:  run a command and show output without having to open a terminal
 - `dsysact`: reboot/shutdown/etc.
 - `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
