@@ -15,6 +15,7 @@ with that.
 - `drssadd`: add RSS links to the newsboat config from clipboad
 - `dshow`:  run a command and show output without having to open a terminal
 - `dsysact`: reboot/shutdown/etc.
+- `dtmpl`: copy template files from a directory into the clipboard
 - `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
 - `y-or-n`: ask if yes or no
 
