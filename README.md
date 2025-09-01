@@ -4,14 +4,6 @@
 pretty selection window for X. These are my scripts for doing things
 with that.
 
-## Submodules
-
-- [dmodurl](https://github.com/equwal/dmodurl): change a URL in the clipboard according to sed rules
-- [dpatchmail](https://github.com/equwal/dpatchmail): do (code) patches with dmenu
-- [dsad](https://github.com/equwal/dsad): manage background audio with Simple Audio Daemon
-- [prompt-mail](https://github.com/equwal/prompt-mail): manage your email contacts list (neomutt compatible)
-- [sbm](https://github.com/equwal/sbm): manage your bookmarks list
-
 - `dbc`: do `bc -l` on the input so you can do math
 - `dbrowsel`: select a browser for the link in the clipboard to open
 - `ddmenu`: use dmenu to select a dmenu script -- dception
@@ -20,3 +12,13 @@ with that.
 - `dsysact`: reboot/shutdown/etc.
 - `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
 - `y-or-n`: ask if yes or no
+
+## Submodules with even more scripts
+
+- [dmodurl](https://github.com/equwal/dmodurl): change a URL in the clipboard according to sed rules
+- [dpatchmail](https://github.com/equwal/dpatchmail): do (code) patches with dmenu
+- [dsad](https://github.com/equwal/dsad): manage background audio with Simple Audio Daemon
+- [prompt-mail](https://github.com/equwal/prompt-mail): manage your email contacts list (neomutt compatible)
+- [sbm](https://github.com/equwal/sbm): manage your bookmarks list
+
+
