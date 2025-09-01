@@ -12,6 +12,7 @@ with that.
 - `dmenupass`: ask for the sudo password as SUDO_ASKPASS
 - `dmount/dunmount`: mount/unmound drives
 - `dopenrc-runlevel`: choose openrc runlevels for various advanced tasks like networking
+- `drssadd`: add RSS links to the newsboat config from clipboad
 - `dshow`:  run a command and show output without having to open a terminal
 - `dsysact`: reboot/shutdown/etc.
 - `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
