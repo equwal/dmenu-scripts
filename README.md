@@ -6,6 +6,7 @@ with that.
 
 - `dbc`: do `bc -l` on the input so you can do math
 - `dbrowsel`: select a browser for the link in the clipboard to open
+- `dcpupower`: select CPU throttling settings
 - `ddmenu`: use dmenu to select a dmenu script -- dception
 - `dmenu_run/dsudo`: run programs, maybe from a keybind set with xbindkeys or a wm
 - `dshow`:  run a command and show output without having to open a terminal
