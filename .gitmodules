@@ -1,0 +1,12 @@
+[submodule "prompt-mail"]
+	path = prompt-mail
+	url = /home/jose/src/sh/dmenu-folder/dmenu-scripts-public/prompt-mail
+[submodule "dmodurl"]
+	path = dmodurl
+	url = git@github.com:equwal/dmodurl
+[submodule "dsad"]
+	path = dsad
+	url = git@github.com:equwal/dsad
+[submodule "dpatchmail"]
+	path = dpatchmail
+	url = git@github.com:equwal/dpatchmail
