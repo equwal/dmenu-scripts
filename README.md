@@ -10,6 +10,7 @@ with that.
 - `ddmenu`: use dmenu to select a dmenu script -- dception
 - `dmenu_run/dsudo`: run programs, maybe from a keybind set with xbindkeys or a wm
 - `dmenupass`: ask for the sudo password as SUDO_ASKPASS
+- `dmount/dunmount`: mount/unmound drives
 - `dshow`:  run a command and show output without having to open a terminal
 - `dsysact`: reboot/shutdown/etc.
 - `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
