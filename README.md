@@ -1,5 +1,7 @@
 # My dmenu scripts
 
+[website](https://therealtruex.com/posts/dmenu-scripts-repo-released)
+
 [dmenu](https://tools.suckless.org/dmenu/) is a simple program with a
 pretty selection window for X. These are my scripts for doing things
 with that.
@@ -17,7 +19,8 @@ with that.
 - `dsysact`: reboot/shutdown/etc.
 - `dtimer`: a coffee timer. Check out [uniformativ.de](https://www.uninformativ.de/git/countty/file/README.html)'s countty for a non-dmenu one.
 - `dtmpl`: copy template files from a directory into the clipboard
-- `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface
+- `passmenu`: unix [`pass`](https://www.passwordstore.org/) interface, copies to clipboard.
+- `passmenu-otp`: like passmenu but copies the OTP code to clipboard.
 - `y-or-n`: ask if yes or no
 
 ## Submodules with even more scripts
