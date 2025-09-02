@@ -27,5 +27,6 @@ with that.
 - [dsad](https://github.com/equwal/dsad): manage background audio with Simple Audio Daemon
 - [prompt-mail](https://github.com/equwal/prompt-mail): manage your email contacts list (neomutt compatible)
 - [sbm](https://github.com/equwal/sbm): manage your bookmarks list
+- [tnon](https://github.com/equwal/tnot): like tmux but not (using mtm and abduco)
 
 

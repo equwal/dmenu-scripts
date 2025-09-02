@@ -13,3 +13,6 @@
 [submodule "sbm"]
 	path = sbm
 	url = git@github.com:equwal/sbm
+[submodule "tnot"]
+	path = tnot
+	url = git@github.com:equwal/tnot
