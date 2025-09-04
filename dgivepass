@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# set as SUDO_ASKPASS
+# for use with sudo -A
+y-or-n "sudo?" && echo 'PASSWORD HERE'
