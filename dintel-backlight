@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# uses uninformativ.de's intel-backlight script
+
+intel-backlight $(echo "up\ndown\nmin\nmax\noff" | dmenu -p 'intel-backlight command:')
