@@ -32,4 +32,16 @@ with that.
 - [sbm](https://github.com/equwal/sbm): manage your bookmarks list
 - [tnon](https://github.com/equwal/tnot): like tmux but not (using mtm and abduco)
 
+## Quick hack for dmenu with sudo
+
+You *could* do:
+```
+alias program='SUDO_ASKPASS=dgivepass sudo -A program'
+```
+
+but it won't come up in dmenu_run. So move `program` to `program-aux` and make a new script at program:
+```
+#!/bin/sh
+SUDO_ASKPASS=dgivepass sudo -A program
+```
 
