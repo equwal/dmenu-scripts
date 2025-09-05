@@ -9,6 +9,8 @@ with that.
 - `dbc`: do `bc -l` on the input so you can do math
 - `dbrowsel`: select a browser for the link in the clipboard to open
 - `dcpupower`: select CPU throttling settings
+- `dkeymap`: select a keymap
+- `dintelbacklight`: select backlight with dmenu or wjt (a scroll wheel)
 - `ddmenu`: use dmenu to select a dmenu script -- dception
 - `dmenu_run/dsudo`: run programs, maybe from a keybind set with xbindkeys or a wm
 - `dmenupass`: ask for the sudo password as SUDO_ASKPASS
@@ -45,3 +47,5 @@ but it won't come up in dmenu_run. So move `program` to `program-aux` and make a
 SUDO_ASKPASS=dgivepass sudo -A program
 ```
 
+## Utilities
+- ``intel-backlight``: uninformativ.de's intel-backlight script

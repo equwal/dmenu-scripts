@@ -1,5 +1,7 @@
 #!/bin/sh
 
-# uses uninformativ.de's intel-backlight script
-
-intel-backlight $(echo "up\ndown\nmin\nmax\noff" | dmenu -p 'intel-backlight command:')
+SELECTOR="$(which wjt)" # a sliding bar that resembles dmenu, 0-100
+SELECTOR=${SELECTOR:- $(which dmenu)}
+OUT="$(echo "up\ndown\nmin\nmax\noff" | "$SELECTOR" -p 'intel-backlight command:')"
+[ -z "$OUT" ] && OUT=0 # hack for wjt no output if not touched
+"$HOME"/src/sh/intel-backlight "$OUT"
