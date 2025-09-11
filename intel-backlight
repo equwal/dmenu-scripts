@@ -8,6 +8,8 @@ fi
 
 [ -z "$1" ] && echo "No argument." && exit 1
 
+echo "intel-backlight called with: '$1'" >&2
+
 [[ ! -d /sys/class/backlight/intel_backlight ]] && exit
 
 current=$(< /sys/class/backlight/intel_backlight/brightness)
@@ -16,8 +18,13 @@ min=$((max / 50))
 step=$((max / 10))
 
 if [[ "$1" =~ ^[0-9]+$ ]]; then
-    current=$(( ( ($1 * max) / 100 ) < min ? min : (($1 * max) / 100 )))
-    echo $max $current $min
+    if [[ "$1" -eq 0 ]]; then
+        current=0
+    elif [[ "$1" -eq 100 ]]; then
+        current=$max
+    else
+        current=$(( ( ($1 * max) / 100 ) < min ? min : (($1 * max) / 100 )))
+    fi
 else
     case $1 in
         up)    ((current+=step))  ;;
@@ -30,7 +37,7 @@ else
 fi
 
 
-if (( current < min )) && [[ $1 != off ]]
+if (( current < min )) && [[ $1 != off ]] && [[ $1 != 0 ]]
 then
     current=$min
 elif (( current > max ))
